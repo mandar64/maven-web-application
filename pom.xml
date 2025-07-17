@@ -23,7 +23,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://172.31.33.143:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>passw0rd</sonar.password> 
+		<sonar.password><squ_3537fdd03c59e6c5af4db7e3f1d1710b9d1cae49/sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.42.154:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <url>http://http://74.225.182.59:8081/mithuntechnologies/repository/canarabank-snapshot/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.42.154:9980/mithuntechnologies/repository/canarabank-release/</url>
+	      <url>http://http://74.225.182.59:8081/mithuntechnologies/repository/canarabank-release/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
